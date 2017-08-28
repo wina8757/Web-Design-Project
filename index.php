@@ -7,7 +7,7 @@
     </head>
     <body>
             
-            <h1> Welcome to Jessen's CST336 website, May you find something interesting in this site!! </h1>
+            <h1> Welcome to Jessen Winardinata's CST336 Website !!!!</h1>
             
             
     </body>
