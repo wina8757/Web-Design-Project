@@ -153,3 +153,7 @@ h1{
 h4{
     text-transform: capitalize;
 }
+#shows:hover
+{
+    width: 250px;
+}
