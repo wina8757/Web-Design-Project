@@ -52,7 +52,9 @@ nav a:hover{
 #video{
     border-width: 0px;  
 }
-
+#video_about{
+    border-width: 0px;
+}
 #me img{
     width: 100%;
     text-align: center;
@@ -68,7 +70,6 @@ nav a:hover{
 #Text, #Img{
     float: left;
 }
-
 #Img img{
     width: 75%;
     /*border-radius: 10px;*/
