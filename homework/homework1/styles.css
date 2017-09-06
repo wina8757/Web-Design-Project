@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 #video{
-    frameborder: "0"  allowfullscreen;    
+    border-width: 0px;  
 }
 
 #me img{
