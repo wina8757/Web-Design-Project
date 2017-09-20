@@ -66,22 +66,36 @@
             
             echo "<div class ='Test'>";
             echo" <p>Tuesday</p>";
-            echo "";
+           do {
+               $workoutCard2 = rand(1,21);
+           } while ($workoutCard2 == $workoutCard1);
             echo "<img src= img/$workoutCard2.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Wednesday</p>";
+            do {
+               $workoutCard3 = rand(1,21);
+           } while ($workoutCard3 == $workoutCard2 || $workoutCard2 == $workoutCard1 || $workoutCard3 == $workoutCard1);
             echo "<img src= img/$workoutCard3.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Thursday</p>";
+             do {
+               $workoutCard4 = rand(1,21);
+           } while ($workoutCard3 == $workoutCard2 || $workoutCard2 == $workoutCard1 || $workoutCard3 == $workoutCard4 
+           || $workoutCard2 == $workoutCard4 || $workoutCard4 == $workoutCard1 );
             echo "<img src= img/$workoutCard4.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Friday</p>";
+             do {
+               $workoutCard5 = rand(1,21);
+           } while ($workoutCard3 == $workoutCard2 || $workoutCard2 == $workoutCard1 || $workoutCard3 == $workoutCard4 
+           || $workoutCard2 == $workoutCard4 || $workoutCard4 == $workoutCard1 || $workoutCard5 == $workoutCard1
+           || $workoutCard5 == $workoutCard2 || $workoutCard5 == $workoutCard3 || $workoutCard5 == $workoutCard4);
             echo "<img src= img/$workoutCard5.jpg >";
             echo "</div>";
 
