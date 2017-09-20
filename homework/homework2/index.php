@@ -1,5 +1,4 @@
 <?php
-     include 'functions.php';
      
      $mennames = array(
     'Christopher','Ryan','Ethan', 'John','Jackson','Aiden','Lucas', 'Liam','Noah', 'Isaac' ,'Peter', 'Justin' , 'Jake', 'Samuel'
@@ -50,20 +49,11 @@
         <div id = "Text">
             <?php
 
-            $workoutCard1 = displayPic();
-            $workoutCard1= substr($workoutCard1,0,-1);
-            
-            $workoutCard2 = displayPic();
-            $workoutCard2= substr($workoutCard2,0,-1);
-            
-            $workoutCard3 = displayPic();
-            $workoutCard3= substr($workoutCard3,0,-1);
-            
-            $workoutCard4 = displayPic();
-            $workoutCard4= substr($workoutCard4,0,-1);
-            
-            $workoutCard5 = displayPic();
-            $workoutCard5= substr($workoutCard5,0,-1);
+            $workoutCard1 = rand(1,21);
+            $workoutCard2 = rand(1,21);
+            $workoutCard3 = rand(1,21);
+            $workoutCard4 = rand(1,21);
+            $workoutCard5 = rand(1,21);
              
             $picture = array($workoutCard1, $workoutCard2, $workoutCard3
             ,$workoutCard4, $workoutCard5);
@@ -71,28 +61,28 @@
             
             echo"<div class ='Test'>";
             echo" <p>Monday</p>";
-            echo "<img src= $workoutCard1 >";
+            echo "<img src= img/$workoutCard1.jpg>";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Tuesday</p>";
             echo "";
-            echo "<img src= $workoutCard2 >";
+            echo "<img src= img/$workoutCard2.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Wednesday</p>";
-            echo "<img src= $workoutCard3 >";
+            echo "<img src= img/$workoutCard3.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Thursday</p>";
-            echo "<img src= $workoutCard4 >";
+            echo "<img src= img/$workoutCard4.jpg >";
             echo "</div>";
             
             echo "<div class ='Test'>";
             echo" <p>Friday</p>";
-            echo "<img src= $workoutCard5>";
+            echo "<img src= img/$workoutCard5.jpg >";
             echo "</div>";
 
    

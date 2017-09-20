@@ -6,14 +6,8 @@ h1{
 body{
     text-align:center;
     background: linear-gradient(to top left, #66ccff 0%, #ff99cc 100%);
-    font-family: 'Baloo Bhaina', cursive;
+    font-size: 2em;
     }
-    
-/*#Text{*/
-/*    display: inline-block;   */
-/*    text-align: center;*/
-/*    margin: auto;*/
-/*    }*/
   
 input{
         
@@ -30,16 +24,15 @@ input{
         cursor:pointer;
     } 
     
-/*img{*/
-/*    width: 200px;*/
-/*    height: auto;*/
-/*    display: inline-block;   */
-/*    }*/
+img{
+    width: 250px;
+    height: auto;
+    }
     
-#Text, .Test{
+.Test{
      display: inline-block;
      verticle-align: middle;
-     font-size: 2em;
+     font-size: .8em;
      text-align: center;
      margin: auto;
     }
