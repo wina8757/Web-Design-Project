@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    color: #9932cc;
+    text-shadow: 1px 1px #4b0082;
+    font-family: Cinzel, serif;
+    border-style: solid;
+    border-color: #4b0082;
+    background-color: #efae92;
+}
+body {
+    background-image: url("../img/royal.jpg");
+    color: #9932cc;
+    text-shadow: 1px 1px #4b0082;
+    font-size: 24px;
+    font-family: Didact Gothic, sans-serif;
+}
+.people {
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    
+}
+.cards {
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+}
+
+.player {
+    margin: 50px;
+    border-style: solid;
+    border-color: #4b0082;
+    background-color: #efae92;
+}
+
+footer {
+    border-style: solid;
+    border-color: #4b0082;
+    background-color: #efae92;
+    text-align:center;
+}
