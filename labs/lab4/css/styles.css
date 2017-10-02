@@ -1,0 +1,59 @@
+body {
+    opacity:0.9;
+    width:100%;        
+    text-align:center;
+    color:black;
+}
+    
+input {
+    font-size: 3em;
+    color: black;
+}
+    
+#carousel-example-generic {
+    margin: 0 auto;   
+    width: 700px;
+}
+    
+input {
+    top:75px;
+    left:50px;
+    position:center;
+    font-size:1.3em;
+    background-color: #d5e1df;
+    border:solid;
+    outline:none; /*hides button outline when clicking on it*/
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+}
+  
+form {
+   width: 1000px;
+   height: 700px;
+   margin: auto;
+  
+}
+ 
+ label {
+    top:75px;
+    left:50px;
+    position:center;
+    font-size:1.3em;
+    background-color: #d5e1df;
+    border:solid;
+    outline:none; /*hides button outline when clicking on it*/
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+}
+
+option {
+    background-color: white;
+    border:solid;
+}
+
+div {
+    background-color: #d5e1df;
+    border:solid;
+}
