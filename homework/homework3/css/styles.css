@@ -1,0 +1,86 @@
+body{ 
+    font: 14px Georgia, serif; 
+    margin: 0; 
+    padding: 0;
+    background: linear-gradient(to top left, #66ccff 0%, #ff99cc 100%);
+}
+
+#page-wrap{ 
+    width: 500px; 
+    margin: 0 auto; 
+}
+
+h1{ 
+    margin: 25px 0; 
+    /*font: 20px Georgia, Serif; */
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    text-shadow: 2px 2px 4px #000000;
+    font: italic bold 50px/50px Georgia, serif;
+    color: #e5e5ff;
+}
+
+#quiz input {
+    vertical-align: middle;
+}
+
+#quiz ol {
+   margin: 0 0 10px 20px;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; 
+   margin: 0 0 1px 0; 
+   color: #666;
+}
+
+#results {
+    font: 44px;
+    font-family: Berlin Sans FB !important;
+    font-size: 8;
+}
+
+footer{
+    clear: left;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    width: 700px;
+    /*background-color: BLUE !important;*/
+    color: black;
+    height: 170px;
+}
+
+#footer_hr{
+        width: 100%;  
+        color: white;
+         background-color: #ffff80;
+         height: 3px;
+}
+
+#footer_content{
+    width: 400px;
+    margin: 0px auto;
+}
+
+#Text{
+    font-family: 'Amita', cursive;
+    width: 250px;
+    font-size: medium;
+}
+
+#Text, #Img{
+    float: left;
+}
+#Img img{
+    width: 75%;
+    /*border-radius: 10px;*/
+}
