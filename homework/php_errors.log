@@ -1,0 +1,92 @@
+[19-Sep-2017 20:12:50 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:50 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:50 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:53 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:53 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:53 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:53 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:53 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:53 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:54 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:54 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:54 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:55 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:55 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:55 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:55 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:56 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:56 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:56 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:12:57 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:12:57 UTC] PHP Stack trace:
+[19-Sep-2017 20:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:12:57 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:13:27 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:13:27 UTC] PHP Stack trace:
+[19-Sep-2017 20:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:13:27 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:13:27 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:13:27 UTC] PHP Stack trace:
+[19-Sep-2017 20:13:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:13:27 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:16:27 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:16:27 UTC] PHP Stack trace:
+[19-Sep-2017 20:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:16:27 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:16:27 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/cst336/homework/homework2/functions.php on line 28
+[19-Sep-2017 20:16:27 UTC] PHP Stack trace:
+[19-Sep-2017 20:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:16:27 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:19
+[19-Sep-2017 20:27:24 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 19
+[19-Sep-2017 20:27:24 UTC] PHP Stack trace:
+[19-Sep-2017 20:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:27:48 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 19
+[19-Sep-2017 20:27:48 UTC] PHP Stack trace:
+[19-Sep-2017 20:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[19-Sep-2017 20:28:28 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 19
+[19-Sep-2017 20:28:28 UTC] PHP Stack trace:
+[19-Sep-2017 20:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 07:20:54 UTC] PHP Fatal error:  Call to undefined function displayPic() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 13
+[20-Sep-2017 07:20:54 UTC] PHP Stack trace:
+[20-Sep-2017 07:20:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 07:20:55 UTC] PHP Fatal error:  Call to undefined function displayPic() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 13
+[20-Sep-2017 07:20:55 UTC] PHP Stack trace:
+[20-Sep-2017 07:20:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 07:20:56 UTC] PHP Fatal error:  Call to undefined function displayPic() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 13
+[20-Sep-2017 07:20:56 UTC] PHP Stack trace:
+[20-Sep-2017 07:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 07:20:56 UTC] PHP Fatal error:  Call to undefined function displayPic() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 13
+[20-Sep-2017 07:20:56 UTC] PHP Stack trace:
+[20-Sep-2017 07:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 07:20:56 UTC] PHP Fatal error:  Call to undefined function displayPic() in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 13
+[20-Sep-2017 07:20:56 UTC] PHP Stack trace:
+[20-Sep-2017 07:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:05:51 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 11
+[20-Sep-2017 16:05:51 UTC] PHP Stack trace:
+[20-Sep-2017 16:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:05:51 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/homework/homework2/index.php:11
+[20-Sep-2017 16:05:52 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 11
+[20-Sep-2017 16:05:52 UTC] PHP Stack trace:
+[20-Sep-2017 16:05:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:05:52 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/homework/homework2/index.php:11
+[20-Sep-2017 16:05:53 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 11
+[20-Sep-2017 16:05:53 UTC] PHP Stack trace:
+[20-Sep-2017 16:05:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:05:53 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/homework/homework2/index.php:11
+[20-Sep-2017 16:05:54 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 11
+[20-Sep-2017 16:05:54 UTC] PHP Stack trace:
+[20-Sep-2017 16:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:05:54 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/homework/homework2/index.php:11
+[20-Sep-2017 16:06:06 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/homework/homework2/index.php on line 11
+[20-Sep-2017 16:06:06 UTC] PHP Stack trace:
+[20-Sep-2017 16:06:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework2/index.php:0
+[20-Sep-2017 16:06:06 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/homework/homework2/index.php:11
