@@ -23,9 +23,9 @@
         <label for="id">ID number  :</label>
         <input id="id" type="text" name="id" placeholder = "id"  >
         <br/><br/>
-        <input id="male" type="checkbox" name="genderm" value="male" placeholder ="male">
+        <input id="male" type="checkbox" name="gender" value="male" placeholder ="male">
         <label for="male">Male</label>
-        <input id="female" type="checkbox" name="genderf" value="female" placeholder ="female">
+        <input id="female" type="checkbox" name="gender" value="female" placeholder ="female">
         <label for="female">Female</label>
         <br/><br/>
         

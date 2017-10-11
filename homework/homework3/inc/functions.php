@@ -39,8 +39,8 @@
         $user_fname = $_POST['fname'];
         $user_lname = $_POST['lname'];
         $user_id = $_POST['id'];
-        $user_gender = $_POST['male'];
-        $user_gender = $_POST['female'];
+        $user_gender1 = $_POST['male'];
+        $user_gender2 = $_POST['female'];
     }
     
     
@@ -58,10 +58,9 @@
             }
         }
       
-   echo "<center><font face='Berlin Sans FB' size='8'><strong> First Name: </strong></font></center>" . $user_fname . "<br />";
+   echo "<center><font face='Berlin Sans FB' size='8'><strong> First Name: </strong></font></center>" . $user_fname ;
     echo "<center><font face='Berlin Sans FB' size='8'><strong> Last Name: </strong></font></center>" . $user_lname . "<br />";
     echo "<center><font face='Berlin Sans FB' size='8'><strong> User ID : </strong></font></center>" . $user_id . "<br />";
-    echo "<center><font face='Berlin Sans FB' size='8'><strong> Gender: </strong></font></center>" . $user_gender . "<br />";
     echo"<center><font face='Berlin Sans FB' size='8'>Your Score is <br> $totalCorrect / 5 correct </font></center>";
     
    

@@ -1,0 +1,221 @@
+[08-Sep-2017 19:29:43 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 19
+[08-Sep-2017 19:30:24 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[08-Sep-2017 19:30:25 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[08-Sep-2017 19:30:26 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[08-Sep-2017 19:30:26 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[08-Sep-2017 19:30:26 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[08-Sep-2017 19:30:27 UTC] PHP Parse error:  syntax error, unexpected '" );"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/randomColor.php on line 18
+[13-Sep-2017 19:21:44 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:44 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:44 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:47 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:47 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:47 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:48 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:48 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:48 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:48 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:48 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:48 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:49 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:49 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:49 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:49 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:49 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:49 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:49 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:49 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:49 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:50 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:50 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:50 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:50 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:50 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:50 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:57 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:57 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:57 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:58 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:58 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:58 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:58 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:58 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:58 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:58 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:58 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:58 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:21:58 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:21:58 UTC] PHP Stack trace:
+[13-Sep-2017 19:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:21:58 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:23:07 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:23:07 UTC] PHP Stack trace:
+[13-Sep-2017 19:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:23:07 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:23:08 UTC] PHP Warning:  Missing argument 1 for displaySymbol(), called in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 13 and defined in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 3
+[13-Sep-2017 19:23:08 UTC] PHP Stack trace:
+[13-Sep-2017 19:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:23:08 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/cst336/practice/php_arrays.php:13
+[13-Sep-2017 19:52:48 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:48 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:52:51 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:51 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:52:51 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:52 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:52:52 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:52 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:52:52 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:52 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:52:52 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:52:52 UTC] PHP Stack trace:
+[13-Sep-2017 19:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 19:53:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 19:53:49 UTC] PHP Stack trace:
+[13-Sep-2017 19:53:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:38:54 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:38:54 UTC] PHP Stack trace:
+[13-Sep-2017 20:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:38:59 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:38:59 UTC] PHP Stack trace:
+[13-Sep-2017 20:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:38:59 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:38:59 UTC] PHP Stack trace:
+[13-Sep-2017 20:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:38:59 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:38:59 UTC] PHP Stack trace:
+[13-Sep-2017 20:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:00 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:00 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:00 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:00 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:22 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:22 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:23 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:23 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:24 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:24 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:24 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:24 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:24 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:24 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:25 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:25 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:25 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:25 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:25 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:39:26 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:39:26 UTC] PHP Stack trace:
+[13-Sep-2017 20:39:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:47 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:47 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:48 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:48 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:49 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:49 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:49 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:49 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:50 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:50 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:50 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:50 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:50 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:50 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:51 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:51 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:51 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:51 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:51 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:51 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:40:52 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 52
+[13-Sep-2017 20:40:52 UTC] PHP Stack trace:
+[13-Sep-2017 20:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:25 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:25 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:25 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:25 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:25 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:27 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:27 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:28 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:28 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:42:28 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:42:28 UTC] PHP Stack trace:
+[13-Sep-2017 20:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:05 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:05 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:05 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:05 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:06 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:06 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:06 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:06 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:06 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:06 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
+[13-Sep-2017 20:45:06 UTC] PHP Fatal error:  Call to undefined function aray_rand() in /home/ubuntu/workspace/cst336/practice/php_arrays.php on line 54
+[13-Sep-2017 20:45:06 UTC] PHP Stack trace:
+[13-Sep-2017 20:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
