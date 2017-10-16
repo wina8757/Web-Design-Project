@@ -18,11 +18,20 @@ function displayCheckoutHistory() {
     $stmt->execute($namedParam);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
+    $i =1;
     foreach ($records as $record) {
         
-        echo  $record['firstName'] . " " . $record['lastName'] . "<br />";
-        
-    }
+        echo "$i" .")." ."      Role:  " .$record['role'] . "<br />" . "<br />";
+        echo "First Name:  " .$record['firstName']  . "<br />";
+        echo "Last Name:  " .$record['lastName'] . "<br />";
+        echo "University ID:  " .$record['universityId'] . "<br />";
+        echo  "Email: " . " " .$record['email'] . "<br />";
+        echo  "Phone Number: " . " " .$record['phone'] . "<br />";
+        echo  "Checkout Date: " . " " .$record['checkoutDate'] . "<br />";
+        echo  "Due Date: " . " " .$record['dueDate'] . "<br />";
+        $i++;
+        echo "<br />";
+        }
     
 }
 

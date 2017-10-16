@@ -54,9 +54,21 @@ function displayDevices(){
          }     
          
          if (isset($_GET['available'])) {
-             
+             $sql .= " AND status = :dAvailability"; //using named parameters
+            $namedParameters[':dAvailability'] =  "A" ;
          }
         
+         if (isset($_GET['orderBy']) == name) {
+             if($_GET['orderBy'] == name)
+             {
+                  $sql .= " ORDER BY deviceName";
+             }else{
+                 $sql .= " ORDER BY price";
+             }
+                   
+         }
+         
+    
         
         
     }//endIf (isset)
@@ -73,9 +85,10 @@ function displayDevices(){
     
      foreach ($records as $record) {
         
-        echo  $record['deviceName'] . " " . $record['deviceType'] . " " .
-              $record['price'] .  "  " . $record['status'] . 
-              "<a target='checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
+        echo  $record['deviceName'] . "     " . $record['deviceType'] . "     " .
+              $record['price'] .  "      " . $record['status'] .  "      " .
+              "<a target='checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId'].
+              "'> Checkout History </a> <br /> </t>";
         
     }
 }
@@ -87,10 +100,14 @@ function displayDevices(){
     <head>
         <title>Lab 5: Device Search </title>
     </head>
-    <body>
+    <body >
+        
+        <style>
+           @import url("css/styles.css");
+        </style>
         
         <h1> Technology Center: Checkout System </h1>
-        
+        <div id = input>
         <form>
             Device: <input type="text" name="deviceName" placeholder="Device Name"/>
             Type: 
@@ -113,16 +130,16 @@ function displayDevices(){
             
             <input type="submit" value="Search!" name="submit" >
         </form>
-        
+        </div>
         
         <hr>
-        
+        <div id = display>
         <?=displayDevices()?>
+        </div>
         
-        
-        
-        <iframe name="checkoutHistory" width="400" height="400"></iframe>
-        
+        <div id = css>
+        <iframe name="checkoutHistory" width="675" height="771" allowtransparency="true" style="background: #d5e1df;"></iframe>
+        </div>
 
 
 

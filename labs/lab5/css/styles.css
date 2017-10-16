@@ -1,0 +1,21 @@
+body{
+    background-color:#d5e1df;
+    /*clear: right;*/
+}
+
+#css, #display{
+    float: left;
+    width: 680px;
+    height: 775px;
+    margin: 10px;
+    border: 5px solid #e3eaa7;
+}
+
+#css{
+    background-color: white;
+}
+
+h1, #input{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
