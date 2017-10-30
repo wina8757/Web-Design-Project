@@ -31,7 +31,7 @@ function getUserInfo($userId) {
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $record = $stmt->fetch(); //returning one records only
-    print_r($record);
+    // print_r($record);
     return $record;
 }
 
@@ -75,6 +75,13 @@ if (isset($_GET['userId'])) {
 <html>
     <head>
         <title> Admin: Updating User </title>
+        
+        <style>
+            h1, h2, body {
+                text-align: center;
+                background: linear-gradient(to bottom, #ffffcc 0%, #66ffff 100%);
+            }
+        </style>
     </head>
     <body>
 
@@ -110,7 +117,8 @@ if (isset($_GET['userId'])) {
                             
                                 $departments = getDepartmentInfo();
                                 foreach ($departments as $record) {
-                                    echo "<option value='$record[departmentId]'>$record[deptName]</option>";
+                                    // echo "<option value='$record[departmentId]'>$record[deptName]</option>";
+                                    echo "<option value='$record[departmentId]'" . (($userInfo['deptId'] == $record['departmentId'] ) ? "selected" : "") ." >$record[deptName]</option>";
                                 }
                             ?>
                             

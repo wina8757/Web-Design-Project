@@ -16,7 +16,7 @@ function displayUsers() {
     global $conn;
     $sql = "SELECT * 
             FROM tc_user
-            ORDER BY lastName";
+            ORDER BY userId";
     $statement = $conn->prepare($sql);
     $statement->execute();
     $users = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -29,6 +29,11 @@ function displayUsers() {
 <html>
     <head>
         <title>Admin Page </title>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
         <script>
            
             function confirmDelete(firstName) {
@@ -42,22 +47,27 @@ function displayUsers() {
             #log {
                 display:inline;
             }
+            
+            h1,h2, body {
+                text-align:center;
+                background: linear-gradient(to bottom, #cc99ff 0%, #ffff99 100%);
+            }
         </style>
     </head>
     <body>
-
+        
         <h1> TCP ADMIN PAGE </h1>
         <h2> Welcome <?=$_SESSION['adminFullName']?>! </h2>
-        
         <hr>
-        
+                    
         <form id="log" action="addUser.php" >
-            <input type="submit" value="Add new User" />
+            <input type="submit" class="btn btn-info" value="Add new User" />
         </form>
-        
-         <form id="log" action="logout.php" style=display:"inline">
-            <input type="submit" value="Logout" />
+                    
+        <form id="log" action="logout.php" style=display:"inline">
+            <input type="submit" class="btn btn-info" value="Logout" />
         </form>
+                    
         <br /> <br />
         
         <?php

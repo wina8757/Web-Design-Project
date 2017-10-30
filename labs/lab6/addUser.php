@@ -60,6 +60,12 @@ if (isset($_GET['addUserForm'])){  //the administrator clicked on the "Add User"
 <html>
     <head>
         <title> Admin: Adding New User </title>
+        <style>
+            h1, h2, body {
+                text-align: center;
+                background: linear-gradient(to bottom, #ffffcc 0%, #66ffff 100%);
+            }
+        </style>
     </head>
     <body>
 

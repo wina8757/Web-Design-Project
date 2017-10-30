@@ -63,6 +63,11 @@ if (isset($_GET['userId'])) {
             .mytext {
                 width: 200px;
             }
+            
+            h1, body {
+                text-align:center;
+                background: linear-gradient(to bottom, #cc99ff 0%, #ffff99 100%);
+            }
         </style>
     </head>
     <body>
