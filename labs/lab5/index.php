@@ -113,7 +113,7 @@ function displayDevices(){
             Type: 
             <select name="deviceType">
                 <option>Select One</option>
-                <?=getDeviceTypes()?>
+               
             </select>
             
             <input type="checkbox" name="available" id="available">
@@ -140,8 +140,5 @@ function displayDevices(){
         <div id = css>
         <iframe name="checkoutHistory" width="675" height="771" allowtransparency="true" style="background: #d5e1df;"></iframe>
         </div>
-
-
-
     </body>
 </html>
