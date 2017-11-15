@@ -154,3 +154,42 @@ h2{
 	color: #e4d1d1;
 	font-size: 24px;
 }
+
+footer{
+    clear: left;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    width: 700px;
+    /*background-color: BLUE !important;*/
+    color: black;
+    height: 170px;
+}
+
+#footer_hr{
+        width: 100%;  
+        color: white;
+        background-color: #ffff80;
+        height: 3px;
+}
+
+#footer_content{
+    width: 400px;
+    margin: 0px auto;
+}
+
+#Text{
+    /*font-family: 'Amita', cursive;*/
+    width: 250px;
+    font-size: 28px;
+    color: black;
+    font-weight: 900;
+}
+
+#Text, #Img{
+    float: left;
+}
+#Img img{
+    width: 75%;
+    /*border-radius: 10px;*/
+}
