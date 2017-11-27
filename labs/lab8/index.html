@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AJAX: Sign Up Page</title>
+<link  href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script>
+
+    function getCity() {
+        
+        //alert($("#zip").val());
+        $.ajax({
+
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+            dataType: "json",
+            data: { "zip": $("#zip").val() },
+            success: function(data,status) {
+            
+            
+                if(!data) { //data is false
+                    // alert("Username is available");
+                    $("#zip-msg").html("Zipcode is not valid").css("color", "red").css("font-weight", "bold");
+                    $("#city").html("");
+                    $("#latitude").html("");
+                    $("#longitude").html("");
+                }
+                // alert(data);
+                else{
+                    $("#zip-msg").html("");
+                    $("#city").html(data.city);
+                    $("#latitude").html(data.latitude);
+                    $("#longitude").html(data.longitude);
+                }
+                
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        
+        });//ajax
+        
+    } //function    
+    
+    function getCounties() {
+        // alert( "You've selected state: " + $("#state").val() );
+        
+        $.ajax({
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+            dataType: "json",
+            data: { "state": $("#state").val() },
+            success: function(data,status) {
+                // alert(data[0].county);
+                $("#county").html("<option> Select One </option>");
+                for(var i=0; i<data.length; i++){
+                    $("#county").append("<option>" + data[i].county + "</option>");
+                }
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        });//ajax
+    }
+    
+    function checkUsername() {
+        // alert("Hello");
+        
+        $.ajax({
+            type: "GET",
+            url: "checkUsername.php",
+            dataType: "json",
+            data: { "username": $("#username").val() },
+            success: function(data,status) {
+                // alert(data);
+                
+                if(!data) { //data is false
+                    // alert("Username is available");
+                    $("#msg").html("Username is available").css("color", "green").css("font-weight", "bold");
+                }else{ //data is true
+                    // alert("username already taken!");
+                    $("#msg").html("Username is already taken!").css("color", "red").css("font-weight", "bold");
+                }
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        });//ajax
+    }
+    
+    function validatePassword() {
+        var x = document.getElementById("password");
+        var y = document.getElementById("confirmpassword");
+        if (y.value == x.value){
+            document.getElementById("validMsg").innerHTML = "";
+        }
+        else if(y.value != x.value){
+            var elem = document.getElementById("validMsg");
+            elem.innerHTML= "Password is not valid!";
+            elem.style.color = "Red";
+            elem.style.fontWeight = "Bold";
+        }
+        
+    }
+    
+    //event handlers
+    $(document).ready( function(){
+         $("#zip").change( function() { getCity(); } ); 
+         $("#state").change( function() { getCounties(); } );
+         $("#username").change( function() { checkUsername(); } ); 
+        //  $("#newPassword").change( function() { checkPassword(); } );
+    } ); //documentReady
+    
+     
+    
+</script>
+
+</head>
+
+<body id="dummybodyid">
+
+   <h1> Sign Up Form </h1>
+
+
+    <div class="container">
+        
+    <form method="post" id="signupForm">
+        <fieldset>
+           <!--<legend></legend>-->
+            <label>First Name:  </label><input type="text" size="30"><br> 
+            <label>Last Name:   </label><input type="text" size="30"><br> 
+            <label>Email:       </label><input type="text" size="30"><br> 
+            <label>Phone Number:</label><input type="text" size="30"><br>
+            <label>Zip Code:    </label><input type="text" id="zip" onchange="getCity()" size="30"> <span id="zip-msg"> </span><br>
+            <label>City:</label><span id="city"></span>
+            <br>
+            <label>Latitude:</label><span id="latitude"></span>
+            <br>
+            <label>Longitude:</label><span id="longitude"></span>
+            <br>
+            <label>State:</label><select id="state" >
+                       <option value="1">Select One</option>
+                       <option value="ca">California</option>
+                       <option value="ny">New York</option>
+                       <option value="tx">Texas</option>
+                       <option value="va">Virginia</option>
+                  </select><br>
+                  
+            <label>Select a County:  </label><select id="county"></select><br>    
+            <label>Desired Username: </label><input type="text" id="username" size="30"> <span id="msg"></span> <br>
+            <label>Password: </label><input type="password" id="password" size="30"><br>
+            <label>Confirm Password: </label><input type="password" id="confirmpassword" size="30"> <span id="validMsg"></span><br>
+            <!--<input type="submit" value="Sign Up" onClick="validatePassword();">-->
+            <button type="button" class="btn btn-info" onClick="validatePassword();" >Sign Up</button>
+        </fieldset>
+    </form>
+    
+    </div>
+    
+    <hr id="footer1">
+        
+        <footer>
+            
+            <div id="Img">
+                <img  src="img/csumb.jpg" alt="CSUMB Logo" />
+            </div> 
+            
+            <div id="Text">
+             CST 336-02 Internet Programming. 2017&copy; Winardinata <br />
+             <strong>Disclaimer:</strong> The information in this web is fictitous. <br />
+             It is used for academic purpose only
+            </div>
+            
+        </footer>
+</body>
+
+</html>

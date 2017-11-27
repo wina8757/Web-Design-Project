@@ -1,0 +1,40 @@
+body{
+    /*background-image: url("../img/limbo.jpg");*/
+    background-color: #EBF7E3 !important;
+}
+
+h1{
+    border-style: inset;
+    text-align: center;
+    color: #87bdd8;
+}
+
+label{
+    display:inline-block;
+    width:200px;
+    margin-right:1px;
+    text-align:left;
+}
+
+#Text, #Img{
+    float: left;
+}
+
+#Img img{
+    width: 75%;
+    border-radius: 10px;
+}
+
+footer{
+    clear: left;
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+}
+
+#footer1{
+        width: 100%;  
+        color: white;
+        background-color: #969696;
+        height: 3px;
+}
