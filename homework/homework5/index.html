@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link  href="css/styles.css" rel="stylesheet" type="text/css" />
+<title>AJAX: Weather API Page</title>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script>
+    function getCity() {
+        var zip = $("#zip").val(); 
+        
+        $.ajax({
+            type: "GET",
+            url: "http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us"+ "&appid=230dee7ddb60eb06b9db14bad2e6eb27",
+            dataType: "json",
+            data: { "zip": $("#zip").val() },
+            success: function(data,status) {
+                console.log(data);
+                $("#city").html(data.name);
+                $("#latitude").html(data.coord.lat);
+                $("#longitude").html(data.coord.lon);
+                $("#wind").html(((data.wind.speed)*2.23693626).toFixed(2));
+                $("#temp").html(((9/5 * (data.main.temp)) - 459.67).toFixed(2));
+                $("#pressure").html(data.main.pressure);
+                $("#humidity").html(data.main.humidity);
+                $("#temp_min").html(((9/5 * (data.main.temp_min)) - 459.67).toFixed(2));
+                $("#temp_max").html(((9/5 * (data.main.temp_max)) - 459.67).toFixed(2));
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        });//ajax
+        
+        $.ajax({
+            type: "GET",
+            url: "insertZip.php",
+            dataType: "json",
+            data: { "zip": $("#zip").val() },
+            success: function(data,status) {
+                $("#searchText").html("The Zip Code " + "'"+ zip + "' has been searched " + data.length +" time(s)");
+                // $("#text").html("The keyword " + zip + " has been searched" + j+ "time(s)");
+                $("#searchText").append("<div>Search History:</div>");
+                for(var i=0; i<data.length; i++){
+                    $("ol").append("<li> "+ data[i].TimeStamp + "</li>");
+                }
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        });//ajax
+    } //function    
+    
+    </script>
+</head>
+
+<body>
+
+   <h1> Weather API </h1>
+
+        <fieldset>
+           <!--<legend></legend>-->
+                <label id="zipLabel">Zip Code:    </label><input type="text" id="zip"> <br>
+                <label>City:</label> <span id="city"></span> <br>
+                <label>Latitude:</label> <span id="latitude"></span> <br>
+                <label>Longitude:</label> <span id="longitude"></span> <br>
+                <label>Temperature:</label> <span id="temp"></span> <span>°F</span><br>
+                <label>Pressure:</label> <span id="pressure"></span> <span>hPa</span><br>
+                <label>Wind:</label> <span id="wind"></span> <span>mph</span><br>
+                <label>Humidity:</label> <span id="humidity"></span> <span>%</span><br>
+                <label>Min Temperature:</label> <span id="temp_min"></span> <span>°F</span><br>
+                <label>Max Temperature:</label> <span id="temp_max"></span> <span>°F</span><br>
+                <div id="searchText"></div>
+                <ol>
+                </ol>
+                <div id="buttonDiv">
+                    <!--<input type="button" class="button" value="Search" onclick="getCity();">-->
+                    <button class="button" onclick="getCity();">Search</button>
+                </div>
+        </fieldset>
+
+    <hr class="type_9"></hr>
+    
+    <footer>
+            
+            <div id="Img">
+                <img  src="img/buddy.png" alt="Buddy Logo" />
+            </div> 
+            
+            <div id="Text">
+             CST 336-02 Internet Programming. 2017&copy; Jessen Winardinata <br />
+             <strong>Disclaimer:</strong> Welcome to Weather Services API. <br />
+             It is used for academic purpose only
+            </div>
+            
+    </footer>
+</body>
+
+</html>

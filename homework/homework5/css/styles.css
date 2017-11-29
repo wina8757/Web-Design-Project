@@ -1,0 +1,96 @@
+body{
+    background-color: #EBF7E3 !important;
+}
+
+h1{
+    border-style: inset;
+    text-align: center;
+    text-shadow: 0px 3px 4px purple;
+    color: #87bdd8;
+    background-color: #fefbd8;
+}
+
+fieldset{
+    margin: auto;
+    width: 900px;
+}
+
+span{
+    color: #e06377;
+}
+
+label{
+    color: #e06377;
+    padding-left: 350px;
+}
+
+#searchText{
+    color: #e06377;
+    padding-left: 320px;
+}
+
+ol{
+    color: #e06377;
+    padding-left: 370px;  
+}
+
+#zip{
+    border: 2px solid #50394c;
+    border-radius: 4px;
+    background-color: #d6cbd3;
+}
+
+.button {
+    background-color: #d6cbd3;
+    border: 2px solid #50394c;
+    color: #c94c4c;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#buttonDiv{
+    text-align: center;
+}
+
+hr.type_9 {
+    border: 0;
+    height: 6px;
+    background-image: url("../img/type_9.png");
+    /*background-image: url("../img/limbo.jpg");*/
+    background-repeat: repeat;
+    position : relative;
+    top : 200px;
+    margin: 0 0 0 0;
+}
+
+#Text{
+    color: #e06377;
+    position : relative;
+    top : 30px;
+}
+
+#Text, #Img{
+    float: left;
+}
+
+#Img img{
+    width: 75%;
+    border-radius: 10px;
+}
+
+footer{
+    clear: left;
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+    position : relative;
+    top : 210px;
+}
+
+#footer1{
+        width: 100%;  
+        color: white;
+        background-color: #969696;
+        height: 3px;
+}
