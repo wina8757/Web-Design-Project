@@ -12,7 +12,7 @@
       if (($_FILES["myFile"]["size"]) < 1000000) {
         move_uploaded_file($_FILES["myFile"]["tmp_name"], "gallery/" . $_FILES["myFile"]["name"] );
       } else {
-          echo "<h1> file too big! </h1>";
+          echo "<h1> Please Submit File Less Than 1 MB! </h1>";
       }
       echo "</div>";
       
@@ -100,7 +100,7 @@
     <form method="POST" enctype="multipart/form-data"> 
 
         <input type="file" name="myFile" /> 
-        <input type="submit" value="Upload File!" />
+        <input type="submit" value="Upload File!" /> <span id="message">Submit File Less Than 1 MB</span>
 
     </form>
 
