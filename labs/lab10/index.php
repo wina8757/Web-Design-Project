@@ -5,7 +5,9 @@
   
   function go() {
       echo "<div id='images'>";
-      echo "File size " . $_FILES['myFile']['size'];
+      echo "Upload: " . $_FILES["myFile"]["name"] . "<br>";
+      echo "Type: " . $_FILES["myFile"]["type"] . "<br>";
+      echo "Size: " . ($_FILES['myFile']['size'] / 1024) . " KB";
       
       if (($_FILES["myFile"]["size"]) < 1000000) {
         move_uploaded_file($_FILES["myFile"]["tmp_name"], "gallery/" . $_FILES["myFile"]["name"] );
