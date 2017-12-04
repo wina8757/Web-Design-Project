@@ -62,7 +62,6 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -84,19 +83,16 @@
                   <img class="d-block img-fluid" src="img/otter.jpg" alt="Sixth slide">
               </div>
               <div class="carousel-item">
-                  <img class="d-block img-fluid" src="img/otter.jpg" alt="Seventh slide">
+                  <img class="d-block img-fluid" src="img/sally.jpg" alt="Seventh slide">
               </div>
               <div class="carousel-item">
-                  <img class="d-block img-fluid" src="img/sally.jpg" alt="Eighth slide">
+                  <img class="d-block img-fluid" src="img/samantha.jpg" alt="Eighth slide">
               </div>
               <div class="carousel-item">
-                  <img class="d-block img-fluid" src="img/samantha.jpg" alt="Ninth slide">
+                  <img class="d-block img-fluid" src="img/ted.jpg" alt="Ninth slide">
               </div>
               <div class="carousel-item">
-                  <img class="d-block img-fluid" src="img/ted.jpg" alt="Tenth slide">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" src="img/tiger.jpg" alt="Eleventh slide">
+                  <img class="d-block img-fluid" src="img/tiger.jpg" alt="Tenth slide">
               </div>
           </div>
   
