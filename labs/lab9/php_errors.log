@@ -1,0 +1,27 @@
+[29-Nov-2017 21:18:15 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:18:15 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:18:15 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:18:15 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:18:15 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 4
+[29-Nov-2017 21:18:15 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:38:24 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:38:24 UTC] PHP Stack trace:
+[29-Nov-2017 21:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:38:24 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:38:24 UTC] PHP Stack trace:
+[29-Nov-2017 21:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:38:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 4
+[29-Nov-2017 21:38:24 UTC] PHP Stack trace:
+[29-Nov-2017 21:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:39:02 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:39:02 UTC] PHP Stack trace:
+[29-Nov-2017 21:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:39:02 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 3
+[29-Nov-2017 21:39:02 UTC] PHP Stack trace:
+[29-Nov-2017 21:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
+[29-Nov-2017 21:39:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php on line 4
+[29-Nov-2017 21:39:02 UTC] PHP Stack trace:
+[29-Nov-2017 21:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab9/api/getPetInfo.php:0
