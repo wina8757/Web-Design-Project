@@ -42,7 +42,7 @@ function displayReviewer(){
     
     <div id="wrapper">
     <h1 class="chrome">Movie Store Admin Page</h1>
-    <body background="1.jpg">
+    <body background="bond.jpg">
         
         <br/><br/>
         
@@ -93,7 +93,7 @@ function displayReviewer(){
             ?>
                 <center>
                 <br></br>
-                <fieldset style="width: 1400px; height: 1200px;  opacity: 0.9;">
+                <fieldset style="width: 1200px; height: 800px;  opacity: 0.9;">
                     <?php
                         displayReviewer();
                     ?>

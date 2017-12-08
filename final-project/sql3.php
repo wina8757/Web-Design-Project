@@ -105,7 +105,7 @@ function displayReviewer(){
             ?>
                 <center>
                 <br></br>
-                <fieldset style="width: 1400px; height: 1200px;  opacity: 0.9;">
+                <fieldset style="width: 1400px; height: 800px;  opacity: 0.9;">
                     <?php
                         displayReviewer();
                     ?>
