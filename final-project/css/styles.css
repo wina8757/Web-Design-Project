@@ -1,0 +1,71 @@
+.button-container form,
+.button-container form div {
+    display: inline;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+}
+body
+{
+  background-color: white;
+  text-align: center;
+    
+}
+fieldset{
+    background-color: white;
+}
+
+#color
+{
+  text-align: center;
+  background-color:#99ddff;
+} 
+#color2
+{
+  background-color:#f4e1d2;
+}
+
+.form-group{
+  text-align: center;
+}
+
+
+body {; position: relative;}
+
+.chrome {
+  position: relative;
+  background-image: -webkit-linear-gradient(purple 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, orange 58%, purple 90%, #EC9B4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #f5f5f5;
+  font-size: 100px;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin: 0;
+  line-height: 1;
+}
+
+#form
+{
+    float:left;
+    text-align: center;
+}
+#even 
+{
+  
+  float:left;
+}
+
+/*.btn-warning {*/
+/*    color: #fff;*/
+/*    background-color: green !imp;*/
+/*    border-color: green; */
+/*}*/
+
+/*.btn-default {*/
+    /*color: #fff;*/
+/*    background-color: #f7cac9 !important;*/
+/*    border-color: #d5f4e6; */
+/*}*/

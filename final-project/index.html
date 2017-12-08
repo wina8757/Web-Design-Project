@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Create Account Page</title>
+<link  href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script>
+
+    function checkUsername() {
+        // alert("Hello");
+        
+        $.ajax({
+            type: "GET",
+            url: "checkUsername.php",
+            dataType: "json",
+            data: { "username": $("#username").val() },
+            success: function(data,status) {
+                // alert(data);
+                
+                if(!data) { //data is false
+                    // alert("Username is available");
+                    $("#msg").html("Username is available").css("color", "green").css("font-weight", "bold");
+                }else{ //data is true
+                    // alert("username already taken!");
+                    $("#msg").html("Username is already taken!").css("color", "red").css("font-weight", "bold");
+                }
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+        });//ajax
+    }
+    
+    function validatePassword() {
+        var x = document.getElementById("password");
+        var y = document.getElementById("confirmpassword");
+        if (y.value == x.value){
+            document.getElementById("validMsg").innerHTML = "";
+            return true;
+        }
+        else if(y.value != x.value){
+            var elem = document.getElementById("validMsg");
+            elem.innerHTML= "Password is not valid!";
+            elem.style.color = "Red";
+            elem.style.fontWeight = "Bold";
+            return false;
+        }
+        
+    }
+    
+    //event handlers
+    $(document).ready( function(){
+         $("#username").change( function() { checkUsername(); } ); 
+    } ); //documentReady
+    
+     
+    
+</script>
+
+</head>
+
+<body id="dummybodyid" background="2014.jpg">
+
+  <div class="container">
+      <div class="jumbotron" style="background-color: #d6d4e0; opacity: 0.9">
+           <h1 style="color: #50394c !important"> Sign Up Form </h1>
+      </div>
+  </div>
+    
+    <br/>
+    
+    <center>
+    <fieldset id="color2"  style="width: 624px; height: 130px">
+                <h1>Menu </h1>
+                <a href="admin.php" class="btn btn-default" style="background-color: #ffcc5c !important; border-color: #f9d5e5 !important">Return to Admin Page</a>
+                <a href="index.php" class="btn btn-danger">Admin Logout</a>
+                
+    </fieldset>
+    </center>
+    
+    <br/><br/><br/><br/><br/>
+    
+    <div class="container">
+        
+    <form method="post" id="signupForm" onsubmit= "return validatePassword();">
+        <center>
+        <fieldset style="width: 950px; height: 350px; opacity: 0.9; background-color: #ddeedd !important">
+
+            <br/><br/>
+            <div class="form-group">
+                 <label class="control-label col-sm-offset-1 col-sm-4" for="userName">Desired UserName: </label>
+                      <div class="col-sm-5">  
+                          <div class="input-group">
+                                <input type="text" class="form-control" id="username" placeholder="Enter UserName" name="username"><span class="input-group-addon" id="msg"></span>
+                          </div>
+                      </div>
+                      
+            </div>
+            <!--<span class="input-group-addon" id="msg"></span>-->
+            <br/><br/>
+            
+            <div class="form-group">
+                 <label class="control-label col-sm-offset-1 col-sm-4" for="pwd">Password: </label>
+                      <div class="col-sm-5">   
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password">
+                      </div>
+                      
+            </div>
+            
+            <br/><br/>
+            
+            <div class="form-group">
+                 <label class="control-label col-sm-offset-1 col-sm-4" for="confirmpwd">Confirm Password: </label>
+                      <div class="col-sm-5"> 
+                          <div class="input-group">
+                                <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm Password" name="confirmpassword"> <span class="input-group-addon" id="validMsg"></span>
+                          </div>
+                      </div>
+            </div>
+            
+            <br/><br/>
+            
+            <div class="form-group">        
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Sign Up</button>
+                  </div>
+            </div>
+            
+            
+        </fieldset>
+        </center>
+    </form>
+    
+    </div>
+
+</body>
+
+</html>
